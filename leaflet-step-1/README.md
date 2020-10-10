@@ -6,7 +6,7 @@ Welcome to the United States Geological Survey, or USGS for short! The USGS is r
 The USGS is interested in building a new set of tools that will allow them visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. Their hope is that being able to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding..) on issues facing our planet.
 
 ## Project Proposal
-Create a map using Leaflet that plots all of the earthquakes from the [USGS Earthquakes](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.geojson) based on dataset to get their longitude and latitude.
+Create a map using Leaflet that plots all of the 2.5 magnitude earthquakes from the past 30 days. Utilize the [USGS Earthquakes GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.geojson) dataset to get the longitude and latitude of each quake.
 
 ### Tools Used
 - JavaScript
@@ -14,7 +14,7 @@ Create a map using Leaflet that plots all of the earthquakes from the [USGS Eart
 - HTML/CSS
 
 ## Step 1: Select Dataset
-The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the [USGS GeoJSON Feed (http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and pick a data set to visualize. When you click on a data set, for example 'All Earthquakes from the Past 7 Days', you will be given a JSON representation of that data. You will be using the URL of this JSON to pull in the data for our visualization.
+The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the [USGS GeoJSON Homepage] (http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and pick a data set to visualize. When you click on a data set, for example 'All Earthquakes from the Past 7 Days', you will be given a JSON representation of that data. You will be using the URL of this JSON to pull in the data for our visualization.
 
 ## Step 2: Import & Visualize the Data
 
